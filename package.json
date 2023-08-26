@@ -6,20 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "node server.ts"
   },
   "dependencies": {
     "@types/node": "20.3.1",
     "@types/react": "18.2.13",
     "@types/react-dom": "18.2.6",
     "autoprefixer": "10.4.14",
+    "bufferutil": "^4.0.7",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
+    "express": "^4.18.2",
     "next": "13.4.6",
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "socket.io": "^4.6.2",
+    "socket.io-client": "^4.6.2",
     "tailwindcss": "3.3.2",
-    "typescript": "5.1.3"
+    "typescript": "5.1.3",
+    "utf-8-validate": "^5.0.10"
   }
 }
